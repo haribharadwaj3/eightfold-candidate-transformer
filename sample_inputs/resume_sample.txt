@@ -1,0 +1,17 @@
+Priya Sharma
+Email: priya.sharma@example.com
+Phone: (555) 014-2323
+GitHub: https://github.com/priyasharma
+LinkedIn: https://linkedin.com/in/priyasharma
+
+Professional Summary:
+Full Stack Software Engineer with expertise in Python, Node, React, and MongoDB.
+
+Experience:
+Google - Software Engineer II
+2022-01 to Present
+- Lead development of scalable web applications
+
+Education:
+Stanford University - Master of Science in Computer Science
+2020-09 to 2021-12

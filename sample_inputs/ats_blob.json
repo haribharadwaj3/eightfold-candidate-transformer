@@ -1,0 +1,9 @@
+{
+  "applicant_name": "P. Sharma",
+  "contact_email": "priya.sharma@example.com",
+  "telephone": "555-014-2323",
+  "headline": "SWE II",
+  "company": "Google LLC",
+  "skills": ["python", "js", "react"],
+  "yoe": 4.5
+}

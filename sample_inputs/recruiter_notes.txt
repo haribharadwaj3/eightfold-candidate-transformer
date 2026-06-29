@@ -1,0 +1,8 @@
+Candidate Name: Priya Sharma
+Phone: +1 555-014-2323
+Email: priya.s@example.com
+
+Notes:
+Priya is an excellent programmer. She has 5 years of experience in coding.
+Her core expertise is Python, TypeScript, and AWS.
+She was previously at Google working as a Software Engineer.

@@ -1,0 +1,19 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
