@@ -1,0 +1,232 @@
+[
+  {
+    "full_name": "Priya Sharma",
+    "headline": "Software Engineer",
+    "years_experience": 4.5,
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/priyasharma",
+      "github": "https://github.com/priyasharma",
+      "portfolio": null,
+      "other": []
+    },
+    "emails": [
+      "priya.sharma@example.com",
+      "priya.s@example.com"
+    ],
+    "phones": [
+      "+15550142323"
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.8,
+        "sources": [
+          "ats_json:ats_blob.json#0",
+          "notes:recruiter_notes.txt",
+          "resume:resume_sample.txt"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.8,
+        "sources": [
+          "ats_json:ats_blob.json#0"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.8,
+        "sources": [
+          "ats_json:ats_blob.json#0",
+          "resume:resume_sample.txt"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "confidence": 0.56,
+        "sources": [
+          "resume:resume_sample.txt"
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "confidence": 0.56,
+        "sources": [
+          "resume:resume_sample.txt"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.36,
+        "sources": [
+          "notes:recruiter_notes.txt"
+        ]
+      },
+      {
+        "name": "Amazon Web Services",
+        "confidence": 0.36,
+        "sources": [
+          "notes:recruiter_notes.txt"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Google",
+        "title": "Software Engineer",
+        "start": null,
+        "end": "Present",
+        "summary": "Current role"
+      },
+      {
+        "company": "Google",
+        "title": "Software Engineer II",
+        "start": null,
+        "end": "Present",
+        "summary": "Google - Software Engineer II"
+      },
+      {
+        "company": "2022",
+        "title": "01 to Present",
+        "start": "2022-01",
+        "end": "Present",
+        "summary": "2022-01 to Present"
+      },
+      {
+        "company": "",
+        "title": "Lead development of scalable web applications",
+        "start": null,
+        "end": "Present",
+        "summary": "- Lead development of scalable web applications"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Stanford University",
+        "degree": "Master of Science in Computer Science",
+        "field": null,
+        "end_year": null
+      },
+      {
+        "institution": "2020",
+        "degree": "09 to 2021",
+        "field": null,
+        "end_year": 2020
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv:recruiter_export.csv",
+        "method": "title_case_strip"
+      },
+      {
+        "field": "headline",
+        "source": "csv:recruiter_export.csv",
+        "method": "strip"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json:ats_blob.json#0",
+        "method": "passthrough"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "resume:resume_sample.txt",
+        "method": "strip"
+      },
+      {
+        "field": "links.github",
+        "source": "resume:resume_sample.txt",
+        "method": "strip"
+      },
+      {
+        "field": "emails",
+        "source": "csv:recruiter_export.csv",
+        "method": "union_merge"
+      },
+      {
+        "field": "phones",
+        "source": "csv:recruiter_export.csv",
+        "method": "union_merge"
+      },
+      {
+        "field": "experience:Google",
+        "source": "csv:recruiter_export.csv",
+        "method": "union_merge"
+      },
+      {
+        "field": "experience:Google",
+        "source": "resume:resume_sample.txt",
+        "method": "union_merge"
+      },
+      {
+        "field": "experience:2022",
+        "source": "resume:resume_sample.txt",
+        "method": "union_merge"
+      },
+      {
+        "field": "experience:",
+        "source": "resume:resume_sample.txt",
+        "method": "union_merge"
+      },
+      {
+        "field": "education:Stanford University",
+        "source": "resume:resume_sample.txt",
+        "method": "union_merge"
+      },
+      {
+        "field": "education:2020",
+        "source": "resume:resume_sample.txt",
+        "method": "union_merge"
+      },
+      {
+        "field": "emails",
+        "source": "notes:recruiter_notes.txt",
+        "method": "union_merge"
+      },
+      {
+        "field": "skills:Python",
+        "source": "ats_json:ats_blob.json#0, notes:recruiter_notes.txt, resume:resume_sample.txt",
+        "method": "aggregate_skills"
+      },
+      {
+        "field": "skills:JavaScript",
+        "source": "ats_json:ats_blob.json#0",
+        "method": "aggregate_skills"
+      },
+      {
+        "field": "skills:React",
+        "source": "ats_json:ats_blob.json#0, resume:resume_sample.txt",
+        "method": "aggregate_skills"
+      },
+      {
+        "field": "skills:Node.js",
+        "source": "resume:resume_sample.txt",
+        "method": "aggregate_skills"
+      },
+      {
+        "field": "skills:MongoDB",
+        "source": "resume:resume_sample.txt",
+        "method": "aggregate_skills"
+      },
+      {
+        "field": "skills:TypeScript",
+        "source": "notes:recruiter_notes.txt",
+        "method": "aggregate_skills"
+      },
+      {
+        "field": "skills:Amazon Web Services",
+        "source": "notes:recruiter_notes.txt",
+        "method": "aggregate_skills"
+      }
+    ],
+    "candidate_id": "cand_b866b340e733ba27",
+    "overall_confidence": 0.82
+  }
+]
