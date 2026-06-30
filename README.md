@@ -53,7 +53,16 @@ python main.py --inputs github:octocat sample_inputs/recruiter_notes.txt --prett
 
 ---
 
+## Sample Outputs
+
+Pre-generated outputs produced by running the pipeline on the sample input files:
+- **Default Canonical Output**: [sample_outputs/default_output.json](sample_outputs/default_output.json)
+- **Runtime-Configured Output**: [sample_outputs/custom_config_output.json](sample_outputs/custom_config_output.json)
+
+---
+
 ## Running Tests
+
 
 All modules are fully tested with unit and integration tests. Run the test suite:
 ```bash
